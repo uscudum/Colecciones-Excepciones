@@ -1,4 +1,4 @@
-package Ejercicio3;
+package ExcepcionesPersonalizadas;
 
 public class ExcepcionEdad extends Exception{
 

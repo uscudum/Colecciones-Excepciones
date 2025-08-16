@@ -1,13 +1,13 @@
-package Ejercicio2;
+package Excepciones;
 
-public class Main {
+public class Excepciones {
 
     public static void main(String[] args) {
 
             int operacion;
             try {
                 int num1 = 1;
-                String num2 = "0";
+                String num2 = "0"; // Ingresar un "a" para probar y luego un valor >0
                 operacion = num1 / Integer.parseInt(num2);
             }catch (NumberFormatException e){
                 System.out.println("Lo ingresado no es un número");
@@ -18,8 +18,6 @@ public class Main {
             }finally {
                 System.out.println("Esto se ejecuta siempre");
             }
-
-
 
         System.out.println("Hola mundo");
 
